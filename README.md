@@ -7,4 +7,4 @@ Secret HTB
  
 `gpg secret_user.gpg # password = user.txt`
 
-![alt text](secret.png)
+![secret img](secret.png)
