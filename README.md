@@ -24,7 +24,7 @@ $ cd Secret
 # Install dependencies
 $ pip3 install -r requirements.txt
 
-# Run the app
+# Run the program
 $ ./secret_user.py
 $ ./secret_root.py
 ```
@@ -45,7 +45,11 @@ $ gpg-zip -d content.gpg
 $ gpg secret_root.gpg
 $ gpg secret_user.gpg
 
-# Run the app
+# Make the program
+$ chmod +x secret_user.py
+$ chmod +x secret_root.py
+
+# Run the program
 $ ./secret_user.py
 $ ./secret_root.py
 ```
