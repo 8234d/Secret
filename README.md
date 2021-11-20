@@ -22,7 +22,7 @@ $ git clone https://github.com/8234d/Secret/
 $ cd Secret
 
 # Install dependencies
-$ sudo pip3 install -r requirements.txt
+$ pip3 install -r requirements.txt
 
 # Run the app
 $ ./secret_user.py
