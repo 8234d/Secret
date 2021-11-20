@@ -33,16 +33,17 @@ Please think that this is done to share techniques not for spoilers, the authors
 
 As this is an active machine, you have to decrypt the files before you can use the exploits.
 
+the password is in the root hash from /etc/shadow
+
+`root:$6$/0f5J.S8.u.dA78h$*********************/uD8T5FcY[...].:18873:0:99999:7:::`
+
 ```bash
 ## To access all repository content
 $ gpg-zip -d content.gpg
-# the password is the hash inside root.txt
 
 ## To access each user's exploit individually
 $ gpg secret_root.gpg
-# the password is the hash inside root.txt
 $ gpg secret_user.gpg
-# the password is the hash inside user.txt
 
 # Run the app
 $ ./secret_user.py
